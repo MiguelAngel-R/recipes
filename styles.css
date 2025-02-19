@@ -1,0 +1,52 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navegador{    
+    text-align: center;
+    height: 30px;
+    background-color: bisque;
+}
+
+
+.navegador .link{
+    color: black;
+    font-size: 20px;
+    width: 50px;
+    text-decoration: none;
+}
+
+.navegador .container{
+    width: 24.150vw;
+    height: 30px;
+    display: inline-block;    
+}
+
+.navegador .container:hover{
+    background-color: aquamarine;  
+}
+
+h1{
+    height: 60px;    
+}
+
+.lista-desordenada{       
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-desordenada li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.lista-desordenada li:hover{
+    background-color: aquamarine;
+}
+
+.lista-desordenada li a:hover{
+    font-size: 40px;    
+    transition-duration: 0.3s;
+}
+
