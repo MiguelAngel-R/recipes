@@ -4,7 +4,7 @@ body{
 
 .navegador{    
     text-align: center;
-    height: 30px;
+    height: auto;
     background-color: bisque;
 }
 
@@ -18,35 +18,51 @@ body{
 
 .navegador .container{
     width: 24.150vw;
-    height: 30px;
+    height: auto;
     display: inline-block;    
 }
 
 .navegador .container:hover{
-    background-color: aquamarine;  
+    background-color: aquamarine; 
+    transition: 0.5s;
 }
 
 h1{
-    height: 60px;    
+    height: auto;    
+    background-color: burlywood;
+    margin-top: 50px;
+    text-align: center;
 }
 
-.lista-desordenada{       
+.lista-desordenada{   
+    display: block;
     list-style-type: none;
-    text-align: center;
+    background-color: aqua;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 200px;   
+}
+
+.obj{    
+    display: inline-block;    
+    height: 80px;
+    width: 200px;
+    padding: 10px;
 }
 
 .lista-desordenada li a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: black;
 }
 
 .lista-desordenada li:hover{
-    background-color: aquamarine;
+    background-color: white;
 }
 
 .lista-desordenada li a:hover{
-    font-size: 40px;    
+    font-size: 25px;    
     transition-duration: 0.3s;
 }
 
