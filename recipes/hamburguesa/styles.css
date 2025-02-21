@@ -1,0 +1,102 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(248, 255, 242);
+}
+
+.container-volver{
+    width:7%;
+    transition: 0.5s;
+}
+
+.volver{
+    text-decoration: none;
+    color: black;    
+    transition: 0.3s;
+    font-size: 20px;    
+}
+
+.container-volver:hover{
+    width: 100%;
+    transition: 0.5s;
+    background-color: aqua;
+}
+
+.volver:hover{
+    color: rgb(134, 131, 131);
+    transition: 0.3s;
+}
+
+h1{
+    height: auto;    
+    background-color: burlywood;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.container-imagen{
+    text-align: center;
+    margin: 50px;
+}
+
+.container-descripcion{
+    height: 120px;
+    background-color: rgb(226, 225, 225);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.titulo-descripcion{
+    margin: 0%;
+    font-size: 20px;
+}
+
+.descripcion{
+    text-align: justify;
+}
+
+.container-ingredientes{
+    font-size: 18px;
+    background-color: rgb(208, 255, 255);
+    margin: 50px;
+}
+
+.container-ingredientes h4{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container-ingredientes ul{
+    list-style-type: square;
+    padding-left: 0;   
+    padding-left: 30px; 
+    padding-bottom: 10px;
+}
+
+.container-preparacion{
+    font-size: 18px;
+    margin: 50px;
+    background-color: rgb(203, 255, 255);
+    padding: 10px;
+}
+
+.container-preparacion h4{
+    margin: 0%;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.container-preparacion ol{
+    list-style-type: upper-roman;
+}
+
+
+
+
+
+
+
+
+
