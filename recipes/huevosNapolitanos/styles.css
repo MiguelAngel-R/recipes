@@ -1,0 +1,99 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(248, 255, 242);
+}
+
+.volver{
+    font-size: 20px;
+    width: 0.7%;
+    transition: 0.3s;
+}
+
+.volver a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.volver:hover{
+    width: 100%;
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+.volver a:hover{
+    color: rgb(197, 196, 196);
+    transition: 0.3s;
+}
+
+h1{
+    text-align: center;
+    background-color: burlywood;
+}
+
+.container-img{
+    margin: 100px;
+}
+
+.container-img img{
+    border-radius: 200px;
+    transition: 0.5s;
+}
+
+.container-img img:hover{
+    border-radius: 0%;
+    transition: 0.5s;
+}
+
+.container-descripcion{
+    text-align: justify;
+    background-color: rgb(193, 253, 253);
+    padding: 10px;
+}
+
+.container-descripcion h4{
+    text-align: center;
+    font-size: 20px;
+    margin: 0%;
+}
+
+
+.container-principal{
+    display: flex;
+    width: 100% - 50px;
+    margin: 50px;    
+}
+
+.container-ingredientes{    
+    width: 50%;
+    background-color: aquamarine;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.container-ingredientes h4{
+    text-align: center;
+}
+
+
+.container-preparacion{
+    width: 50%;
+    background-color: aquamarine;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.container-preparacion ol{
+    padding-left: 20px;
+}
+
+.container-preparacion li{
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.container-preparacion h4{
+    text-align: center;
+}
+
