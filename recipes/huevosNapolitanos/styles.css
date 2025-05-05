@@ -69,10 +69,17 @@ h1{
     background-color: aquamarine;
     margin-right: 20px;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .container-ingredientes h4{
     text-align: center;
+}
+
+.container-ingredientes:hover,
+.container-preparacion:hover{
+   transform: translateY(-20px);
+   transition: 0.3s;
 }
 
 
@@ -82,6 +89,7 @@ h1{
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .container-preparacion ol{

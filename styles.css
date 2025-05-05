@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -19,12 +22,14 @@ body{
 .navegador .container{
     width: 24.150vw;
     height: auto;
-    display: inline-block;    
+    display: inline-block; 
+    transition: 0.3s;   
 }
 
 .navegador .container:hover{
     background-color: aquamarine; 
-    transition: 0.5s;
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 
 h1{
@@ -35,26 +40,34 @@ h1{
 }
 
 .lista-desordenada{   
-    display: block;
+    display: flex;
     list-style-type: none;
     background-color: aqua;
     margin-top: 100px;
     margin-right: 20px;
     margin-left: 20px;
-    height: 200px;   
+    height: 200px;  
+    padding: 0 10px; 
 }
 
-.obj{    
-    display: inline-block;    
-    height: 80px;
-    width: 200px;
-    padding: 10px;
+.obj{
+    margin: 0 10px;
+    text-align: center;
+    border: 4px solid;
+    transition: 0.3s;
 }
+
+.obj:hover{
+    transform: translateY(-10px);
+    transition: 0.2s;
+}
+
 
 .lista-desordenada li a{
     text-decoration: none;
     font-size: 20px;
     color: black;
+    transition: 0.2s;
 }
 
 .lista-desordenada li:hover{
@@ -63,6 +76,6 @@ h1{
 
 .lista-desordenada li a:hover{
     font-size: 25px;    
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }
 
